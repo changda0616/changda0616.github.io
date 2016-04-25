@@ -2,10 +2,12 @@
 
 $(document).ready(function(){
 
-  function newTyped(){ /* A new typed object */ };
-  function foo(){ console.log("Callback"); };
 
   (function(){
+
+    function newTyped(){ /* A new typed object */ };
+    function foo(){ console.log("Callback"); };
+
 
       $("#typed").typed({
           // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
