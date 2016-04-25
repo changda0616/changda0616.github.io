@@ -26,7 +26,8 @@ $(document).ready(function(){
       $(".reset").click(function(){
           $("#typed").typed('reset');
       });
-});
+    });
+  })();
 
   $(".main").onepage_scroll({
     beforeMove: function(index){
