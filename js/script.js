@@ -24,7 +24,7 @@ $(document).ready(function(){
           $("#typed").typed('reset');
       });
   })();
-},6000);
+},3000);
 
   $(".main").onepage_scroll({
     beforeMove: function(index){
