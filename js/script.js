@@ -7,7 +7,8 @@ $(document).ready(function(){
     function foo(){ console.log("Callback"); };
 
 
-      $("#typed").typed({
+      window.onload(function(){
+        $("#typed").typed({
           // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
           stringsElement: $('#typed-strings'),
           typeSpeed: 10,
@@ -25,7 +26,7 @@ $(document).ready(function(){
       $(".reset").click(function(){
           $("#typed").typed('reset');
       });
-  })();
+});
 
   $(".main").onepage_scroll({
     beforeMove: function(index){
