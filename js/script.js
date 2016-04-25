@@ -7,7 +7,7 @@ $(document).ready(function(){
     function foo(){ console.log("Callback"); };
 
 
-      window.onload(function(){
+      $(window).load(function(){
         $("#typed").typed({
           // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
           stringsElement: $('#typed-strings'),
@@ -64,5 +64,4 @@ $(document).ready(function(){
     $("#email-result").css("display","inline-block").fadeIn(1000).fadeOut(2000);
     return false;
   });
-
 });
