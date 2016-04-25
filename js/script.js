@@ -2,6 +2,31 @@
 
 $(document).ready(function(){
 
+  function newTyped(){ /* A new typed object */ };
+  function foo(){ console.log("Callback"); };
+
+  (function(){
+
+      $("#typed").typed({
+          // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
+          stringsElement: $('#typed-strings'),
+          typeSpeed: 10,
+          backDelay: 400,
+          loop: false,
+          contentType: 'html', // or text
+          // defaults to false for infinite loop
+          loopCount: false,
+          showCursor:true,
+          callback: function(){ foo(); },
+          resetCallback: function() { newTyped(); }
+
+      });
+
+      $(".reset").click(function(){
+          $("#typed").typed('reset');
+      });
+  })();
+
   $(".main").onepage_scroll({
     beforeMove: function(index){
       if( index == 2 ){
@@ -29,29 +54,7 @@ $(document).ready(function(){
     }
   });
 
-  (function(){
 
-      $("#typed").typed({
-          // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
-          stringsElement: $('#typed-strings'),
-          typeSpeed: 10,
-          backDelay: 400,
-          loop: false,
-          contentType: 'html', // or text
-          // defaults to false for infinite loop
-          loopCount: false,
-          showCursor:true,
-          callback: function(){ foo(); },
-          resetCallback: function() { newTyped(); }
-
-      });
-
-      $(".reset").click(function(){
-          $("#typed").typed('reset');
-      });
-  })();
-  (function newTyped(){ /* A new typed object */ })();
-  (function foo(){ console.log("Callback"); })();
 
 
 
