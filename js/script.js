@@ -1,13 +1,11 @@
 $(document).ready(function(){
 
-
+  setTimeout(function(){
   (function(){
 
     function newTyped(){ /* A new typed object */ };
     function foo(){ console.log("Callback"); };
 
-
-      $(window).load(function(){
         $("#typed").typed({
           // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
           stringsElement: $('#typed-strings'),
@@ -20,14 +18,13 @@ $(document).ready(function(){
           showCursor:true,
           callback: function(){ foo(); },
           resetCallback: function() { newTyped(); }
-
       });
 
       $(".reset").click(function(){
           $("#typed").typed('reset');
       });
-    });
   })();
+},3000);
 
   $(".main").onepage_scroll({
     beforeMove: function(index){
