@@ -65,8 +65,7 @@ $(document).ready(function(){
 
   $("#response-form").submit(function(){
     emailjs.sendForm('default_service', 'mail_form', this);
-    $("#email-result").css("display","inline-block").fadeIn("1000",function(){
-    });
+    $("#email-result").css("display","inline-block").fadeIn(1000).fadeOut(1000);
     return false;
   });
 
