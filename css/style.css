@@ -1,5 +1,5 @@
 
-html {
+html{
   height:100%;
   width:100%;
 }
@@ -130,12 +130,12 @@ color: #585656;
 #skill-container img{
   opacity: 0;
 }
-// #right-sec-img {
-//   position: absolute;
-//   top: 2em;
-//   right:13.2em;
-//   z-index: 1;
-//   }
+ /*#right-sec-img {
+   position: absolute;
+   top: 2em;
+   right:13.2em;
+   z-index: 1;
+}*/
 #aboutme-div {
   position: absolute;
   bottom:8em;
