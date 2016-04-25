@@ -60,19 +60,19 @@ $(document).ready(function(){
 
 
 
-  //
-  // (function(){
-  //     emailjs.init("user_38Lby2e0A7XlXLZ63GrDJ");
-  // })();
-  //
-  //
-  //
-  //
-  // $("#response-form").submit(function(){
-  //   emailjs.sendForm('default_service', 'mail_form', this);
-  //   $("#email-result").css("display","inline-block").fadeIn("1000",function(){
-  //   });
-  //   return false;
-  // });
+
+  (function(){
+      emailjs.init("user_38Lby2e0A7XlXLZ63GrDJ");
+  })();
+
+
+
+
+  $("#response-form").submit(function(){
+    emailjs.sendForm('default_service', 'mail_form', this);
+    $("#email-result").css("display","inline-block").fadeIn("1000",function(){
+    });
+    return false;
+  });
 
 });
