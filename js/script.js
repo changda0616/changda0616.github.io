@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-  setTimeout(function(){
   (function(){
 
     function newTyped(){ /* A new typed object */ };
@@ -24,7 +23,6 @@ $(document).ready(function(){
           $("#typed").typed('reset');
       });
   })();
-},700);
 
   $(".main").onepage_scroll({
     beforeMove: function(index){
