@@ -1,0 +1,303 @@
+@import "less/bootstrap.less";
+
+html {
+  height:100%;
+  width:100%;
+}
+body{
+  height:100%;
+  width:100%;
+}
+.page_container{
+  height:100%;
+  width:100%;
+}
+
+.container-fluid{
+  height:100%;
+  width:100%;
+  padding:0;
+}
+.intro-div{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.intro{
+  /* Hello, I’m Chang Da.: */
+position: relative;
+width:100%;
+left: 11.17%;
+font-family: "Avenir";
+font-weight: lighter;
+font-size: 2.6em;
+line-height: 2em;
+/*letter-spacing: 0.02em;*/
+color: #585656;
+}
+.cursor{
+  position: relative;
+  font-family: "Helvetica Neue" !important;
+  opacity:1;
+  font-weight: 100;
+  font-size: 0.8em;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+.typed-cursor{
+    position: relative;
+    left: 11.17%;
+    opacity: 1;
+    font-weight: 100;
+    font-size: 2em;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#typed-div{
+  position: relative;
+  top:13em;
+}
+
+#typed br{
+  line-height: 4em;
+}
+
+.wrapper{
+  height:100% !important;
+  margin: 0 auto;
+  background-color: rgb(234, 231, 228);
+  overflow: hidden;
+}
+
+#right-first-img {
+  position: fixed;
+  bottom:0.1em;
+  right:10em;
+}
+#imgLayer{
+  position: relative;
+  right:0;
+  bottom:0;
+  background-color:rgb(234, 231, 228);
+  // background-color:green;
+  height:100%;
+  width: 500px;
+  z-index: 2
+}
+#skill-container{
+  position: absolute;
+  width:113px;
+  height:100%;
+  right:13.2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+#skill-container img{
+  opacity: 0;
+}
+// #right-sec-img {
+//   position: absolute;
+//   top: 2em;
+//   right:13.2em;
+//   z-index: 1;
+//   }
+#aboutme-div {
+  position: absolute;
+  bottom:8em;
+  left: 4em;
+}
+.aboutme{
+  font-family: "Avenir";
+  font-weight: lighter;
+  font-size: 2.6em;
+  letter-spacing: 0.01em;
+  color: #585656;
+
+}
+#selfie-div{
+  position:absolute;;
+  right:0;
+  top:0;
+  height:100%;
+}
+
+#coffee{
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 1;
+}
+#selfie-img{
+  position: absolute;
+  right:3em;
+  top:3em;
+  z-index: 2;
+}
+
+#descri1{
+  position: absolute;
+  right:-2.3em;
+  top:-1em;
+  display:none;
+  z-index: 3;
+}
+
+#descri2{
+  position: absolute;
+  right:-2.3em;
+  top:-1em;
+  display:none;
+  z-index: 4;
+}
+
+#descri3{
+  position: absolute;
+  right:0.8em;
+  top:45em;
+  display:none;
+  z-index: 4;
+}
+
+
+
+#contact-div{
+  /* Rectangle 14: */
+  //background-image: linear-gradient(-13deg, rgba(119,73,73,0.90) 0%, rgba(116,72,72,0.90) 5%, #422424 100%);
+  background-image: linear-gradient(-9deg, rgba(110,19,19,0.50) 0%, rgba(110,19,19,0.67) 43%, rgba(110,19,19,0.86) 100%);
+  position: relative;
+}
+
+#contact-div div h1{
+  font-family: "Avenir";
+  font-weight: 100;
+  font-size: 4em;
+  color:#fff;
+  text-align: center !important;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+}
+
+#contact-wrapper{
+  display:flex;
+  justify-content: center;
+}
+#icon-div{
+  // width:7em;
+  height: inherit;
+  margin-right:8em;
+  // margin-top: auto;
+  // margin-bottom: auto;
+  padding:0;
+  text-align: center;
+  }
+
+.icon{
+  display: inline-block;
+  margin: 1.5em 0;
+  height:5.5em;
+  width:5.5em;
+}
+#msg-div{
+  padding:0;
+}
+#msg-div textarea{
+  background-image: url("img/line.svg");
+  background-color: transparent;
+  padding:0;
+  border: none;
+  resize:none;
+  width:100%;
+  height:299px;
+  outline:none;
+  font-family: "Avenir Next";
+  font-size: 2.5em;
+  font-weight: 100;
+  letter-spacing: 0.04em;
+  color:white;
+  overflow:hidden;
+  -webkit-box-shadow: none !important;
+     -moz-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#submit-input{
+  position: absolute;
+  right:-2px;
+  width:105px;
+  height:70px;
+  outline: none;
+}
+#response-form label{
+  color: white;
+  font-family: "Avenir Next";
+  font-size: 2em;
+  font-weight: 100;
+  display: inline;
+}
+#email-div{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+}
+#email-block{
+  display:inline-block;
+  border:none;
+  background-color: transparent;
+  color:white;
+  outline:none;
+  font-family: "Avenir Next";
+  size:50;
+  font-size: 2em;
+  font-weight: 100;
+}
+#email-block::-webkit-input-placeholder{
+  color:white;
+  opacity: 0.5;
+  font-size:0.7em;
+}
+
+#email-result{
+  display: none;
+  text-align: center;
+  font-family: "Avenir Next";
+  font-size: 2em;
+  font-weight: 100;
+  color:white;
+  border: 1px dashed white;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}

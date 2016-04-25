@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="113px" height="114px" viewBox="0 0 113 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Html</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(0.000000, -49.000000)">
+            <g id="Skill" transform="translate(0.000000, 49.000000)">
+                <g id="Html">
+                    <path d="M56.5,113.523438 C87.7040884,113.523438 113,88.1487972 113,56.8475915 C113,25.5463858 87.7040884,0.171744989 56.5,0.171744989 C25.2959116,0.171744989 0,25.5463858 0,56.8475915 C0,88.1487972 25.2959116,113.523438 56.5,113.523438 Z" id="Oval-15" fill-opacity="0.918987772" fill="#501616"></path>
+                    <g id="Html-Icon" transform="translate(29.247059, 39.229504)" stroke="#FFFFFF">
+                        <polygon id="Path-4" stroke-width="2" points="0.201426025 0.161477881 54.2845923 0.191060863 49.662769 56.2711497 27.5959819 62.2108577 5.20294847 56.4560433"></polygon>
+                        <polygon id="Path-5" fill="#FFFFFF" points="44.0747324 11.5550885 43.6922839 18.5227974 17.5984005 18.4492745 18.0475659 25.574398 43.1707633 25.6644164 41.2322102 46.5590599 27.1248433 50.5179855 12.9803591 46.8244022 12.6044884 36.2521858 19.1539482 36.2521858 19.1539482 41.0979 27.1361194 43.3099132 34.8936207 41.3186679 35.6256289 32.6778415 11.7290306 32.6778415 10.1317291 11.4966472"></polygon>
+                        <polygon id="Path-10" points="27.0700863 5.28773381 49.6751519 5.41778308 44.9206209 52.9874719 27.1600932 57.6825841 27.1600932 50.4934923 41.0598367 46.051856 43.1458299 25.9360449 27.0371388 25.9360449 27.0371388 18.2248169 43.2611935 18.2248169 43.6845681 11.7859903 26.9828045 11.7859903"></polygon>
+                    </g>
+                    <path d="M56.3005882,72.4748466 L56.3005882,81.9165239" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <text id="HTML5" font-family="Avenir-Medium, Avenir" font-size="15.3458092" font-weight="400" fill="#FFFFFF">
+                        <tspan x="31.3813185" y="30.1135591">HTML5</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

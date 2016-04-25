@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chad's House</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" media="only screen and (max-width:1280px)" type="text/css" > -->
+    <!-- <link rel="stylesheet" media="only screen and (max-width:1280px)" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" media="only screen and (max-width:1280px)" type="text/css" href="css/onepage-scroll.css">
+    <link rel="stylesheet/less" media="only screen and (max-width:1280px)" type="text/css" href="style.less">
+    <script src="less.js" type="text/javascript"></script>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- <script src="js/form.js" type="text/javascript"></script> -->
+    <script src="js/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/jquery.onepage-scroll.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <!-- <script>
+    window.onload(function(){
+
+        $("#typed").typed({
+            // strings: ["Hello, my name is Chad.", "Hello, my name is Chad.<br>Please feed me coffee", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 10,
+            backDelay: 400,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            showCursor:true,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+    }
+    function newTyped(){ /* A new typed object */ });
+    function foo(){ console.log("Callback"); });
+  );
+
+    </script> -->
+    <!-- <script type="text/javascript">
+    $("#skill-div").mouseenter(function(){
+    alert("123");
+    });
+    </script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <section class="page1 container-fluid" id="landing-div">
+          <!-- <div class="wrapper"> -->
+          <!-- <div class="page_container"> -->
+                <div id="typed-strings">
+                  <p>Hello, I'm Chang Da.</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me,</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>designing</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>coding</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>designing / coding.</p>
+                </div>
+                  <div id="typed-div">
+                    <span class="intro" id="typed"></span>
+                  </div>
+                <img id="right-first-img" src="img/coffee.svg"/>
+          <!-- </div> -->
+        </section>
+        <section id="skill-div" class="page2 container-fluid">
+          <!-- <div class="wrapper"> -->
+          <div class="page_container">
+            <div class="intro-div">
+              <div class="intro">And yeah, I always pour my coffee,<br><br> while I focus on...<span class="cursor">|</span></div>
+              <!-- <div id="imgLayer"></div> -->
+              <!-- <img id="right-sec-img" src="img/skill_red.svg"/> -->
+              <div id="skill-container">
+                <img id="coffee-drip-1" src="img/coffee-drip.svg"/>
+                <img id="html" src="img/HTML.svg"/>
+                <img id="css" src="img/CSS.svg"/>
+                <img id="sketch" src="img/Sketch.svg"/>
+                <img id="illustrator" src="img/Illustrator.svg">
+                <img id="coffee-drip-2" src="img/coffee-drip.svg"/>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </section>
+        <section class="page3 container-fluid" id="interest-div">
+          <!-- <div class="wrapper"> -->
+          <div class="page_container">
+            <div class="col-md-5" id="aboutme-div">
+              <div class="aboutme">Well, as u might wonder,</div>
+              <br>
+              <div class="aboutme">except dropping coffee,</div>
+              <br>
+              <div class="aboutme">what I am interested abt...<span class="cursor">|</span></div>
+            </div>
+            <div class="col-md-7" id="selfie-div">
+              <!-- <img class="img-responsive" id="selfie-img" src="img/circle3.png"/> -->
+              <img id="selfie-img" src="img/chad.png"/>
+              <img id="coffee" src="img/cbg.svg"/>
+              <img id="descri1" src="img/e.png"/>
+              <img id="descri2" src="img/typo.png"/>
+              <img id="descri3" src="img/HCDesign.png"/>
+            </div>
+          </div>
+          <!-- </div> -->
+        </section>
+        <section class="page4 container-fluid wrapper" id="contact-div">
+          <div class="page_container container">
+              <h1>Let's be friends!</h1>
+              <div id="contact-wrapper">
+                <div class="col-lg-1"  id="icon-div">
+                  <a href="https://www.facebook.com/ChadZhuang" target="_blank"><img id="facebook-icon" class="icon" src="img/facebook-icon.svg"/></a>
+                  <a href="https://dribbble.com/ChadZhuang" target="_blank"><img id="dribbble-icon" class="icon" src="img/dribble.svg"/></a>
+                  <a href="https://www.linkedin.com/in/chadzhuang" target="_blank"><img id="linkedin-icon" class="icon" src="img/linkedin.svg"/></a>
+                </div>
+                <div class="col-lg-7" id="msg-div">
+                    <form id="response-form" action="#" autocomplete="off" method="post">
+                      <div id="email-div">
+                        <label>From:</label>
+                        <input type="email" id="email-block" name="from_name" size="40" placeholder="( Please lemme know ur mail ! )">
+                      </div>
+                      <textarea name="message_html"></textarea>
+                      <div id="email-result">Aha! Mail has been sent!</div>
+                      <input type="image" src="img/paperplane.svg" alt="submit" id="submit-input">
+                    </form>
+                </div>
+              </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
