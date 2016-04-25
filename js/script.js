@@ -56,14 +56,9 @@ $(document).ready(function(){
     }
   });
 
-
-
-
-
-
-  (function(){
+  function(){
       emailjs.init("user_38Lby2e0A7XlXLZ63GrDJ");
-  })();
+  };
 
 
 
