@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width; initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Chad's House</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" media="only screen and (max-width:1280px)" type="text/css" href="css/onepage-scroll.css">
-    <link rel="stylesheet" media="only screen and (max-width:1280px)" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- <script src="less.js" type="text/javascript"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -27,31 +28,29 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper container-fluid">
-      <div class="main row">
+    <div class="wrapper container-fluid clear-margin clear-padding">
+      <div class="main">
         <section class="page1" id="landing-div">
                 <div id="typed-strings">
                   <p>Hello, I'm Chang Da.</p>
                   <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me,</p>
-                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>designing</p>
-                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>coding</p>
-                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me, <br>designing / coding.</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me,<br>designing</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me,<br>coding</p>
+                  <p>Hello, I'm Chang Da.<br>Please feed me coffee while u see me,<br>designing / coding.</p>
                 </div>
-                <div id="typed-div" class="col-lg-8">
+                <div id="typed-div" class="col-md-8 col-xs-8">
                   <span class="intro" id="typed"></span>
                 </div>
-                <div class="col-lg-4">
+                <div class="full-height col-md-2 col-xs-2">
                   <img id="right-first-img" src="img/coffee.svg"/>
                 </div>
         </section>
-        <section id="skill-div" class="page2 container-fluid">
+        <section id="skill-div" class="page2">
           <!-- <div class="wrapper"> -->
-          <div class="page_container">
-            <div class="intro-div">
-              <div class="intro">And yeah, I always pour my coffee,<br><br> while I focus on...<span class="cursor">|</span></div>
-              <!-- <div id="imgLayer"></div> -->
-              <!-- <img id="right-sec-img" src="img/skill_red.svg"/> -->
-              <div id="skill-container">
+          <div class="page_container container-fluid">
+            <div class="intro-div row">
+              <div class="intro col-md-8 col-xs-8 col-md-offset-1 col-xs-offset-1">And yeah, I always pour my coffee,<br><br> while I focus on...<span class="cursor">|</span></div>
+              <div id="skill-container" class="full-height col-md-2 col-xs-2">
                 <img id="coffee-drip-1" src="img/coffee-drip.svg"/>
                 <img id="html" src="img/HTML.svg"/>
                 <img id="css" src="img/CSS.svg"/>
@@ -63,7 +62,7 @@
           </div>
           <!-- </div> -->
         </section>
-        <section class="page3 container-fluid" id="interest-div">
+        <section id="interest-div"  class="page3 container-fluid clear-padding" >
           <!-- <div class="wrapper"> -->
           <div class="page_container">
             <div class="col-md-5" id="aboutme-div">
@@ -74,42 +73,64 @@
               <div class="aboutme">what I am interested abt...<span class="cursor">|</span></div>
             </div>
             <div class="col-md-7" id="selfie-div">
-              <!-- <img class="img-responsive" id="selfie-img" src="img/circle3.png"/> -->
-              <img id="selfie-img" src="img/chad.png"/>
-              <img id="coffee" src="img/cbg.svg"/>
-              <img id="descri1" src="img/e.png"/>
-              <img id="descri2" src="img/typo.png"/>
-              <img id="descri3" src="img/HCDesign.png"/>
+                <div id="descri-lg-div">
+                  <img class="descri-lg coffee-lg" src="img/cbg.svg"/>
+                  <img class="descri-lg  selfie-img-lg" src="img/chad.png"/>
+                  <img class="descri-lg  descri1-lg" src="img/e.png"/>
+                  <img class="descri-lg  descri2-lg" src="img/typo.png"/>
+                  <img class="descri-lg  descri3-lg" src="img/HCDesign.png"/>
+                </div>
+                <div id="descri-md-div">
+                  <img class="descri-md coffee-md" src="img/page3-md/cbg.svg"/>
+                  <img class="descri-md selfie-img-md" src="img/page3-md/chad.png"/>
+                  <img class="descri-md descri1-md" src="img/page3-md/e.png"/>
+                  <img class="descri-md descri2-md" src="img/page3-md/typo.png"/>
+                  <img class="descri-md descri3-md" src="img/page3-md/HCDesign.png"/>
+                </div>
+                <div id="descri-sm-div">
+                  <img class="descri-sm coffee-sm" src="img/page3-sm/cbg.svg"/>
+                  <img class="descri-sm selfie-img-sm" src="img/page3-sm/chad.png"/>
+                  <img class="descri-sm descri1-sm" src="img/page3-sm/e.png"/>
+                  <img class="descri-sm descri2-sm" src="img/page3-sm/typo.png"/>
+                  <img class="descri-sm descri3-sm" src="img/page3-sm/HCDesign.png"/>
+                </div>
+              </div>
+              <div id="descri-tab-div" class="descri-tab">
+                <img class="descri-tab  selfie-img-tab" src="img/page3-tab/chad.png">
+                <img class="descri-tab offset descri1-tab" src="img/page3-tab/e.png"/>
+                <img class="descri-tab offset descri2-tab" src="img/page3-tab/typo.png"/>
+                <img class="descri-tab offset descri3-tab" src="img/page3-tab/HCDesign.png"/>
+                <h3 id="descri-tab-word" class="descri-tab col-xs-10 col-xs-offset-1">Except dropping coffee<br/>I am interested abt...</h3>
+              </div>
             </div>
-          </div>
-          <!-- </div> -->
         </section>
         <section class="page4 container-fluid wrapper" id="contact-div">
           <div class="page_container container">
               <h1>Let's be friends!</h1>
               <div id="contact-wrapper">
-                <div class="col-lg-1"  id="icon-div">
+                <div class="col-sm-1"  id="icon-div">
                   <a href="https://www.facebook.com/ChadZhuang" target="_blank"><img id="facebook-icon" class="icon" src="img/facebook-icon.svg"/></a>
                   <a href="https://dribbble.com/ChadZhuang" target="_blank"><img id="dribbble-icon" class="icon" src="img/dribble.svg"/></a>
                   <a href="https://www.linkedin.com/in/chadzhuang" target="_blank"><img id="linkedin-icon" class="icon" src="img/linkedin.svg"/></a>
                 </div>
-                <div class="col-lg-7" id="msg-div">
-                    <form id="response-form" action="#" autocomplete="off" method="post">
-                      <div id="email-div">
-                        <label>From:</label>
-                        <input type="email" id="email-block" name="from_name" size="40" placeholder="( Please lemme know ur mail ! )">
-                      </div>
-                      <textarea name="message_html"></textarea>
-                      <div id="email-result">Aha! Mail has been sent!</div>
-                      <input type="image" src="img/paperplane.svg" alt="submit" id="submit-input">
-                    </form>
+                <div class="col-sm-7 col-sm-offset-1" id="msg-div">
+                  <form id="response-form" action="#" autocomplete="off" method="post">
+                    <div id="email-div">
+                      <label>From:</label>
+                      <input type="email" id="email-block" name="from_name" size="40" placeholder="( Please lemme know ur mail ! )">
+                    </div>
+                    <textarea name="message_html"></textarea>
+                    <div id="email-result">Aha! Mail has been sent!</div>
+                    <input type="image" src="img/paperplane.svg" alt="submit" id="submit-input">
+                  </form>
                 </div>
               </div>
           </div>
         </section>
       </div>
     </div>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
     <script src="js/script.js"></script>
   </body>
 </html>

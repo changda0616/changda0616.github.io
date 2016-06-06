@@ -6,18 +6,15 @@ body{
   height:100%;
   width:100%;
 }
+
+
+
 .page_container{
   height:100%;
   width:100%;
 }
 
-.container-fluid{
-  height:100%;
-  width:100%;
-  padding:0;
-}
 .intro-div{
-  width:100%;
   height:100%;
   display: flex;
   align-items: center;
@@ -25,9 +22,6 @@ body{
 
 .intro{
   /* Hello, I’m Chang Da.: */
-position: relative;
-width:100%;
-left: 11.17%;
 font-family: "Avenir";
 font-weight: lighter;
 font-size: 2.6em;
@@ -49,7 +43,6 @@ color: #585656;
 }
 .typed-cursor{
     position: relative;
-    left: 11.17%;
     opacity: 1;
     font-weight: 100;
     font-size: 2em;
@@ -88,6 +81,7 @@ color: #585656;
 #typed-div{
   position: relative;
   top:13em;
+  left:2%;
 }
 
 #typed br{
@@ -100,44 +94,22 @@ color: #585656;
   background-color: rgb(234, 231, 228);
   overflow: hidden;
 }
-
 #right-first-img {
-  position: fixed;
-  bottom:0.1em;
-  right:10em;
-}
-#imgLayer{
-  position: relative;
-  right:0;
-  bottom:0;
-  background-color:rgb(234, 231, 228);
-  // background-color:green;
-  height:100%;
-  width: 500px;
-  z-index: 2
+  position: absolute;
+  bottom:0em;
+  left:47%;
 }
 #skill-container{
   position: absolute;
-  width:113px;
-  height:100%;
-  right:13.2em;
+  height:90%;
+  top:5%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#skill-container img{
-  opacity: 0;
-}
- /*#right-sec-img {
-   position: absolute;
-   top: 2em;
-   right:13.2em;
-   z-index: 1;
-}*/
-#aboutme-div {
+#aboutme-div{
   position: absolute;
-  bottom:8em;
+  bottom:10%;
   left: 4em;
 }
 .aboutme{
@@ -148,55 +120,163 @@ color: #585656;
   color: #585656;
 
 }
+.full-height{
+  height:100%;
+}
+.clear-margin{
+  margin:0 !important;
+}
+.clear-padding{
+  padding:0 !important;
+}
 #selfie-div{
-  position:absolute;;
+  position:absolute;
   right:0;
   top:0;
   height:100%;
 }
+.descri-lg,.descri-md,.descri-sm,.descri-tab{
+  display:none;
+}
 
-#coffee{
+.coffee-lg{
   position: absolute;
   right:0;
   top:0;
   z-index: 1;
 }
-#selfie-img{
+
+.selfie-img-lg{
   position: absolute;
   right:3em;
   top:3em;
   z-index: 2;
 }
-
-#descri1{
+.descri1-lg{
   position: absolute;
   right:-2.3em;
   top:-1em;
-  display:none;
   z-index: 3;
 }
 
-#descri2{
+.descri2-lg{
   position: absolute;
   right:-2.3em;
   top:-1em;
-  display:none;
   z-index: 4;
 }
-
-#descri3{
+.descri3-lg{
   position: absolute;
   right:0.8em;
   top:45em;
-  display:none;
+  z-index: 5;
+}
+.coffee-md{
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 1;
+}
+.selfie-img-md{
+  position: absolute;
+  right:6em;
+  top:0em;
+  z-index: 2;
+}
+.descri1-md{
+  position: absolute;
+  right:0em;
+  top:0em;
+  z-index: 3;
+}
+.descri2-md{
+  position: absolute;
+  right:0em;
+  top:0em;
   z-index: 4;
 }
+.descri3-md{
+  position: absolute;
+  right:1.5em;
+  top:35.8em;
+  z-index: 5;
+}
+.coffee-sm{
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 1;
+}
+.selfie-img-sm{
+  position: absolute;
+  right:6em;
+  top:0em;
+  z-index: 2;
+}
+.descri1-sm{
+  position: absolute;
+  right:0em;
+  top:-2em;
+  z-index: 3;
+}
+.descri2-sm{
+  position: absolute;
+  right:0em;
+  top:-1.5em;
+  z-index: 4;
+}
+.descri3-sm{
+  position: absolute;
+  right:1.2em;
+  top:32em;
+  z-index: 5;
+}
 
+#descri-tab-div{
+  height:100%;
+  width:100%;
+  position: relative;
+  background-image: linear-gradient(-180deg, #422424 0%, #6E1414 100%);
+}
 
+.selfie-img-tab{
+  position: absolute;
+  width: 10rem;
+  height:10rem;
+  right:5%;
+  top:76%;
+}
+
+.descri1-tab{
+  position: absolute;
+  right:0em;
+  top:0em;
+  z-index: 1;
+}
+.descri2-tab{
+  position: absolute;
+  right:0em;
+  top:0em;
+  z-index: 2;
+}
+.descri3-tab{
+  position: absolute;
+  right:0em;
+  top:0em;
+  z-index: 3;
+}
+#descri-tab-word{
+  font-family: "Avenir-Light";
+  top:74%;
+  color: white;
+  font-size:3rem;
+  font-weight: 100;
+  line-height:4rem;
+}
 
 #contact-div{
   /* Rectangle 14: */
-  //background-image: linear-gradient(-13deg, rgba(119,73,73,0.90) 0%, rgba(116,72,72,0.90) 5%, #422424 100%);
+  /*background-image: linear-gradient(-13deg, rgba(119,73,73,0.90) 0%, rgba(116,72,72,0.90) 5%, #422424 100%);*/
   background-image: linear-gradient(-9deg, rgba(110,19,19,0.50) 0%, rgba(110,19,19,0.67) 43%, rgba(110,19,19,0.86) 100%);
   position: relative;
 }
@@ -216,11 +296,7 @@ color: #585656;
   justify-content: center;
 }
 #icon-div{
-  // width:7em;
   height: inherit;
-  margin-right:8em;
-  // margin-top: auto;
-  // margin-bottom: auto;
   padding:0;
   text-align: center;
   }
@@ -298,4 +374,155 @@ color: #585656;
   border: 1px dashed white;
   border-radius: 5px;
   margin-top: 0.5em;
+}
+
+#self-des{
+  /* Oval 34 Copy 2: */
+  transform: rotate(353deg);
+  background-image: linear-gradient(5deg, rgba(110,19,19,0.65) 0%, #422424 50%);
+  width: 500px;
+  height:500px;
+  border-radius: 100%;
+}
+#self-des h3{
+  /* Human Centered Desig: */
+  font-family: Avenir-Light;
+  font-size: 40.25px;
+  color: #EBE7E7;
+  letter-spacing: 1.29px;
+}
+
+@media (max-width:1211px){
+  .aboutme{
+    font-size: 2em;
+  }
+  #aboutme-div{
+    left:5.5em;
+  }
+}
+@media (max-width:970px){
+  .intro{
+    /* Hello, I’m Chang Da.: */
+  font-family: "Avenir";
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height: 2em;
+  /*letter-spacing: 0.02em;*/
+  color: #585656;
+  }
+}
+@media (max-width:800px){
+  .intro{
+    /* Hello, I’m Chang Da.: */
+  font-family: "Avenir";
+  font-weight: lighter;
+  font-size: 2.5rem;
+  line-height: 2em;
+  /*letter-spacing: 0.02em;*/
+  color: #585656;
+  }
+  #typed-div{
+    position: relative;
+    top:15em;
+    left:2%;
+  }
+}
+@media only screen
+  and (max-device-width: 769px){
+    .descri1-tab{
+      height:20rem;
+    }
+    .descri2-tab{
+      height:35rem;
+    }
+    .descri3-tab{
+      height:50rem;
+    }
+    #descri-tab-word{
+      font-family: "Avenir-Light";
+      top:74%;
+      color: white;
+      font-size:4rem;
+      font-weight: 100;
+      line-height:6rem;
+    }
+    .selfie-img-tab{
+      position: absolute;
+      right:5%;
+      top:75%;
+      width: 15rem;
+      height:15rem;
+    }
+}
+@media (max-width:435px){
+  #descri-tab-word{
+    margin-left:0 !important;
+    top:73%;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  .descri1-tab{
+    height: 15rem;
+  }
+  .descri2-tab{
+    height:25rem;
+  }
+  .descri3-tab{
+    height:35rem;
+  }
+  .selfie-img-tab{
+    position: absolute;
+    right:5%;
+    top:75%;
+    width: 10rem;
+    height:10rem;
+  }
+}
+@media (max-width:375px){
+  #descri-tab-word{
+    margin-left:0 !important;
+    top:75%;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .descri1-tab{
+    height: 15rem;
+  }
+  .descri2-tab{
+    height:25rem;
+  }
+  .descri3-tab{
+    height:35rem;
+  }
+  .selfie-img-tab{
+    position: absolute;
+    right:5%;
+    top:78%;
+    width: 7rem;
+    height:7rem;
+  }
+}
+@media (max-width:320px){
+  #descri-tab-word{
+    margin-left:0 !important;
+    top:75%;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .descri1-tab{
+    height: 12rem;
+  }
+  .descri2-tab{
+    height:20rem;
+  }
+  .descri3-tab{
+    height:28rem;
+  }
+  .selfie-img-tab{
+    position: absolute;
+    right:5%;
+    top:80%;
+    width: 5rem;
+    height:5rem;
+  }
 }

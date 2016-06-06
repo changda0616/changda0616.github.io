@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700px" height="572px" viewBox="0 0 700 572" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 34 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="54.9611677%" y1="106.554951%" x2="50%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#6E1414" stop-opacity="0.65" offset="0%"></stop>
+            <stop stop-color="#422424" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-380.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="Circle" transform="translate(860.342538, 74.801806) rotate(20.000000) translate(-860.342538, -74.801806) translate(324.842538, -478.198194)">
+                <g id="HCD" transform="translate(0.000000, 0.000000)">
+                    <path d="M570.358761,56.1659664 C307.135294,37.7595885 78.1981024,245.248102 59.0132319,519.604532 C40.3119805,787.044887 227.82458,1019.30313 481.104994,1047.89206 C487.65489,1048.63138 494.248768,1049.23449 500.884199,1049.69849 C764.107666,1068.10487 993.044858,860.616353 1012.22973,586.259923 C1031.4146,311.903493 833.582228,74.5723443 570.358761,56.1659664 Z" id="Oval-34-Copy-2" transform="translate(535.621480, 552.932228) rotate(-7.000000) translate(-535.621480, -552.932228) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
